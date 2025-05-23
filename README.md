@@ -28,3 +28,23 @@ This project analyzes Yelp customer reviews to classify them as **positive** or 
 1. Install required packages:
 ```bash
 pip install -r requirements.txt
+
+
+
+Then click **"Commit changes"** to save.
+
+---
+
+## ✅ 4. (Optional) Add `requirements.txt`
+
+If you used many libraries, add a `requirements.txt`:
+
+```txt
+pandas
+numpy
+matplotlib
+seaborn
+nltk
+wordcloud
+scikit-learn
+
