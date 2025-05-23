@@ -1,36 +1,30 @@
-# Sentiment Analysis of Yelp Business Reviews 📝🔍
+# 📝 Sentiment Analysis of Yelp Reviews
 
-This project performs sentiment analysis on Yelp customer reviews to classify opinions as **positive or negative**, and extract business insights using Natural Language Processing (NLP) techniques.
+This project analyzes Yelp customer reviews to classify them as **positive** or **negative**, using Natural Language Processing (NLP) techniques and machine learning.
 
 ## 🚀 Project Highlights
 
-- Cleaned and preprocessed 86,000+ Yelp reviews
-- Visualized frequent words with WordClouds and frequency plots
-- Vectorized text using **CountVectorizer** and **TF-IDF**
-- Built and evaluated models using:
-  - Multinomial Naive Bayes
-  - Random Forest Classifier
-- Achieved ~93% accuracy in sentiment classification
+- Cleaned and processed 86,000+ real Yelp reviews
+- Created word clouds and frequency plots
+- Used CountVectorizer and TF-IDF for text vectorization
+- Trained models: Naive Bayes & Random Forest
+- Achieved 92%+ accuracy in sentiment classification
 
-## 🛠️ Tools & Technologies
-- Python, Pandas, NumPy
-- scikit-learn, NLTK
-- WordCloud, Seaborn, Matplotlib
+## 🛠 Tools Used
 
-## 📊 Example Output
-![wordcloud](images/wordcloud_negative.png)
-![bar](images/bar_positive_terms.png)
+- Python (Jupyter Notebook)
+- Pandas, NumPy
+- NLTK, WordCloud
+- scikit-learn
+- Matplotlib & Seaborn
 
 ## 📁 Dataset
-[Yelp Open Dataset](https://www.yelp.com/dataset)
 
-## 🤖 Model Performance
-| Model                  | Accuracy | Precision (Pos/Neg) |
-|-----------------------|----------|---------------------|
-| Multinomial Naive Bayes | 92.5%    | 96% / 82%           |
-| Random Forest           | 88.9%    | 91% / 83%           |
+- Source: [Yelp Open Dataset](https://www.yelp.com/dataset)
+- Lab Reference: IBM CognitiveClass.ai
 
-## 📌 How to Run
+## ⚙️ How to Run
+
+1. Install required packages:
 ```bash
 pip install -r requirements.txt
-jupyter notebook
